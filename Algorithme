@@ -1,0 +1,18 @@
+Algorithme inverse
+Variables
+Tableau TE (6): entiera
+Tableau
+TS (6): entier
+i: entier
+Début
+Pour i <-- 0 à 5 pas 1 Faire
+Ecrire ("Donner l'élément ", i + 1, ": ")
+Lire (TE (i))
+fin Pour
+Pour i <-- 0 à 5 pas 1 Faire
+TS (5-i) <-- TE (i)
+fin Pour
+Pour i <-- 0 à 5 pas 1 Faire
+Ecrire ("L'élément ",i+1," du tableau inversé est: ", TS (i) )
+fin Pour
+Fin
